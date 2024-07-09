@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <title>MyLib</title>
+    </head>
+    <body>
+        <script  type="module">
+            import { prettyConsole, help } from './MyLib.js';
+
+            console.log("Hello WORLD");
+
+            prettyConsole.log("Hello World!", "info");
+            prettyConsole.log("Be careful with your next steps!", "warning");
+            prettyConsole.log("Something went wrong!", "error");
+            prettyConsole.log("Operation completed successfully!", "success");
+            prettyConsole.log("Here's a detailed debug message.", "debug");
+            help();
+        </script>
+    </body>
+</html>
